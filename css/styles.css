@@ -54,13 +54,13 @@ h2 {
   margin: 0 auto;
   padding: 60px 0;
 }
-.item-details h3 {
+.item-details h3, h4 {
   margin-bottom: 0;
 }
 .item-details h3 + p {
   font-style: italic;
 }
-.item-details h3 ~ p {
+.item-details h3 ~ p, p ~ ul, h4 ~ ul {
   margin: 0;
 }
 .divider > section {
@@ -122,10 +122,12 @@ header {
   background-size: cover;
   padding-bottom: 100px;
 }
-.education p {
-  width: 60%;
+.education p, li {
+  width: 90%;
 }
-
+.education h4 {
+  font-style: italic;
+}
 
 /* Contact Info
 ------------------------------------*/
